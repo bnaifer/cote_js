@@ -1,4 +1,5 @@
-1.npm install
+# Projet coté Js
+1. npm install
 2. node server.js
 3. à ne pas manipuler sont les dossiers : middleware,config
 4. le dossier controller contient auth.controller dédié pour l'authentification avec la verification de token
@@ -9,9 +10,9 @@ du veto avec la verification dans la base par les deux méthodes authJwt.verifyT
 7. il faut créer aussi une bd nommer zanimaux comme décalré dans le fichier db.config.js
 8. pour créer une table on la déclare sous models et elle sera créée par le module sequelize.
 9. pour les requêtes sql vous pouvez utiliser soit le module sequelize soit mysql selon votre choix.
-Architecture:
+### Architecture:
 ![plot](./architecture.png)
-Tests:
+### Tests:
 ![plot](./img1.png)
 ![plot](./img2.png)
 ![plot](./img3.png)
